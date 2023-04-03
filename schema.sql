@@ -1,7 +1,7 @@
 /* Database schema to keep the structure of entire database. */
 
-CREATE TABLE animals (
-  id INTEGER PRIMARY KEY,
+vet_clinic=# CREATE TABLE animals (
+  id INTEGER PRIMARY KEY DEFAULT nextval('animals_id_seq'),
   name VARCHAR(255),
   date_of_birth DATE,
   escape_attempts INTEGER,
