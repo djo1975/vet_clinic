@@ -1,5 +1,3 @@
-/* Database schema to keep the structure of entire database. */
-
 vet_clinic=# CREATE TABLE animals (
   id INTEGER PRIMARY KEY DEFAULT nextval('animals_id_seq'),
   name VARCHAR(255),
@@ -8,4 +6,6 @@ vet_clinic=# CREATE TABLE animals (
   neutered BOOLEAN,
   weight_kg DECIMAL(5,2)
 );
+ALTER TABLE animals ADD COLUMN species VARCHAR(255);
+ALTER TABLE
 
