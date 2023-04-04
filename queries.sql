@@ -1,4 +1,10 @@
-/*Queries that provide answers to the questions from all projects.*/
+-- Delete all records in the animals table and then roll back
+vet_clinic=# BEGIN;
+DELETE FROM animals;
+ROLLBACK;
+BEGIN
+DELETE 11
+ROLLBACK
 
 SELECT * FROM animals 
 WHERE name LIKE '%mon';
@@ -30,7 +36,7 @@ UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 COMMIT;
 SELECT * FROM animals;
 
--- Delete all records in the animals table and then roll back
+
 BEGIN;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
 SAVEPOINT my_savepoint;
