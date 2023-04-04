@@ -1,12 +1,3 @@
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
-
-<a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -58,9 +49,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Vet-clinic-database <a name="about-project"></a>
 
-A relational database to create the initial data structure for a vet clinic.
-
-**Vet-clinic-database** is a relational database to describe the animals.
+In this project, I used transactions to update and delete records. I also used knowledge of aggregate functions and GROUP BY to answer analytical questions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -234,8 +223,6 @@ If you like this project, give it a ⭐️ and let me know what you like in part
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank the whole Microverse community for their help and contributions towards this project.
 
