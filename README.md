@@ -49,7 +49,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Vet-clinic-database <a name="about-project"></a>
 
-In this project, I used transactions to update and delete records. I also used knowledge of aggregate functions and GROUP BY to answer analytical questions.
+In this project I added some new tables and added foreign key columns to existing animals table to model one-to-many relationships. Afterward, I used JOIN to query the data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
