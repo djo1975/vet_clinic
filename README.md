@@ -49,7 +49,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Vet-clinic-database <a name="about-project"></a>
 
-In this project I added some new tables and added foreign key columns to existing animals table to model one-to-many relationships. Afterward, I used JOIN to query the data.
+In this project, I added some many-to-many relationships and write more complex queries to use them to answer questions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
